@@ -1,0 +1,52 @@
+html{
+line-height: 1.15;
+-webkit-text-size-adjust: 100%;
+}
+body{ 
+margin: 0;
+
+}
+/*Header*/
+header{
+background-color: #465B75;
+width: 1500px;
+height: 200px;
+
+
+}
+.ImagenLogo{
+font-size: 24px;
+font-weight: bold;
+width: 110px;
+}
+.MenuHeader{
+display: flex;
+color: white;
+}
+.MenuHeader ul{
+list-style: none;
+display: flex;
+gap: 12px;
+margin: 0;
+padding: 0;
+}
+.MenuHeader ul li{
+margin:0;
+}
+.MenuHeader ul li a{
+text-decoration: none;
+color:white;
+font-weight: bold;
+padding: 10px 15px;
+}
+h1{
+color: white;
+font-size: 2em;
+margin: 0.67em 0;
+}
+
+/*Main*/
+main{
+background-color:#DEE9F7 ;
+
+}
