@@ -2,20 +2,25 @@
 body{
 margin:0;
 padding: 0;
+border: 100vh;
 background-color: blanchedalmond;
+display: flex;
+flex-direction: column;
+margin-bottom: 1px;
 }
 
 
 header{
-background-color: black;
-height:200px;
+background-color: black; 
+height: 200px; 
 padding: 5px;
 display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
+
 }
-h1,h2,h3{
+h1,h2{
 color:white;
 margin:5px 0;
 
@@ -34,16 +39,35 @@ position: absolute;
 right: 2.5rem;
 }
 main{
+    flex: 1;
     width: 1000px;
     margin: 0 auto;
-    background-color: white;
     padding: 20px;
+    border: 2px dotted red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.Contenedor{
+width: 100%;
+background-color: blanchedalmond;
+
+}
+.caja1 , .caja3 {
+color:black;
+}
+.Caja2{
+background-color: aqua;
+
 }
 footer{
-width: 100%;
 height: 80px;
 background-color: black;
 color: aquamarine;
 text-align: center;
 line-height: 80px;
+width: 500vh -1;
+box-sizing: border-box;
 }
